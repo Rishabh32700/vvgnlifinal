@@ -10,11 +10,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 
-
-
+import { useNavigate } from "react-router-dom";
 
 const ResearchSubmenu = () => {
-
+  const navigate = useNavigate();
 
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -39,7 +38,7 @@ const ResearchSubmenu = () => {
                 onClick={handleOpenNavMenu}
                 color="inherit"
               >
-                <MenuIcon/>
+                <MenuIcon />
               </IconButton>
               <Menu
                 id="menu-appbar"
@@ -59,78 +58,138 @@ const ResearchSubmenu = () => {
                   display: { xs: "block", md: "block" },
                 }}
               >
-                <MenuItem onClick={() => {
-                    console.log("research research")
-                  }}>
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForInternationalNetworking"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
                     Centre for International Networking
                   </Typography>
                 </MenuItem>
-                <MenuItem onClick={() => {
-                    console.log("research research")
-                  }}>
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate("/vvgnli/research/centreForLabourMarketStudies");
+                  }}
+                >
                   <Typography textAlign="center">
                     Centre for Labour Market Studies
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForEmploymentRelationsAndRegulations"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
-                    Centre for Employment Relations and
+                    Centre for Employment Relations and Regulations
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <Typography textAlign="center">Regulations</Typography>
-                </MenuItem>
-                <MenuItem>
+                </MenuItem> */}
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForAgrarianRelationsRuralAndBehaviouralStudies"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
-                    Centre for Agrarian Relations, Rural and
+                    Centre for Agrarian Relations, Rural and Behavioural Studies
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <Typography textAlign="center">
                     Behavioural Studies
                   </Typography>
-                </MenuItem>
-                <MenuItem>
+                </MenuItem> */}
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForNationalResourceCentreOnChildLabour"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
-                    Centre for National Resource Centre on Child
+                    Centre for National Resource Centre on Child Labour
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <Typography textAlign="center">Labour</Typography>
-                </MenuItem>
-                <MenuItem>
+                </MenuItem> */}
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForIntegratedLabourHistoryResearchProgramme"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
-                    Centre for Integrated Labour History Research
+                    Centre for Integrated Labour History Research Programme
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                {/* <MenuItem>
                   <Typography textAlign="center">Programme</Typography>
-                </MenuItem>
-                <MenuItem>
+                </MenuItem> */}
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForLabourAndHealthStudies"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
                     Centre for Labour and Health Studies
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForGenderAndLabourStudies"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
                     Centre for Gender and Labour Studies
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate("/vvgnli/research/centreForNorthEastIndia");
+                  }}
+                >
                   <Typography textAlign="center">
                     Centre for North-East India
                   </Typography>
                 </MenuItem>
-                <MenuItem>
+                <MenuItem
+                  onClick={() => {
+                    console.log("research research");
+                    navigate(
+                      "/vvgnli/research/centreForClimateChangeAndLabour"
+                    );
+                  }}
+                >
                   <Typography textAlign="center">
                     Centre for Climate Change and Labour
                   </Typography>
                 </MenuItem>
               </Menu>
             </Box>
-
-            
           </Toolbar>
         </Container>
       </AppBar>

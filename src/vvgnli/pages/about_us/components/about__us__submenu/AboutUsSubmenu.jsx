@@ -2,8 +2,6 @@ import React from "react";
 
 import "./aboutUsSubmenu.css";
 
-
-
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -17,8 +15,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { useNavigate } from "react-router-dom";
 
 const AboutUSSubmenu = () => {
-  const navigate = useNavigate()
-
+  const navigate = useNavigate();
 
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -65,73 +62,66 @@ const AboutUSSubmenu = () => {
               >
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
-                    
-                    navigate('/vvgnli/about-us')
-                   
+                    console.log("hello  hello");
+
+                    navigate("/vvgnli/about-us");
                   }}
                 >
-                  <Typography textAlign="center">
-                    About US
-                  </Typography>
+                  <Typography textAlign="center">About US</Typography>
                 </MenuItem>
 
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  director general")
-                    navigate("/vvgnli/about-us/director-general")
+                    console.log("hello  director general");
+                    navigate("/vvgnli/about-us/director-general");
                   }}
                 >
-                  <Typography textAlign="center">
-                    Director General
-                  </Typography>
+                  <Typography textAlign="center">Director General</Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
+                    console.log("hello  hello");
+                    navigate("/vvgnli/about-us/vision-mission");
                   }}
                 >
-                  <Typography textAlign="center">
-                    Vision & mission
-                  </Typography>
+                  <Typography textAlign="center">Vision & mission</Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
+                    console.log("hello  hello");
+                    navigate("/vvgnli/about-us/history");
                   }}
                 >
                   <Typography textAlign="center">History</Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
+                    console.log("hello  hello");
+                    navigate("/vvgnli/about-us/governing-bodies");
                   }}
                 >
-                  <Typography textAlign="center">
-                    Governing Bodies
-                  </Typography>
+                  <Typography textAlign="center">Governing Bodies</Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
+                    console.log("hello  hello");
+                    navigate("/vvgnli/about-us/infrastructure");
                   }}
                 >
-                  <Typography textAlign="center">
-                    Infrastructure
-                  </Typography>
+                  <Typography textAlign="center">Infrastructure</Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
+                    console.log("hello  hello");
+                    navigate("/vvgnli/about-us/networking");
                   }}
                 >
-                  <Typography textAlign="center">
-                    Networking
-                  </Typography>
+                  <Typography textAlign="center">Networking</Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    console.log("hello  hello")
+                    console.log("hello  hello");
+                    navigate("/vvgnli/about-us/whoswho");
                   }}
                 >
                   <Typography textAlign="center">Who's who</Typography>
@@ -146,6 +136,3 @@ const AboutUSSubmenu = () => {
 };
 
 export default AboutUSSubmenu;
-
-
-
