@@ -123,13 +123,15 @@ const App = () => {
               path="/vvgnli/research/centreForClimateChangeAndLabour"
               element={<CentreForClimateChangeAndLabour />}
             />
+
+            <Route path="vvgnli/library" element={<Library />} />
+
             <Route path="/vvgnli/e-resource" element={<EResource />} />
 
             <Route path="/community" element={<>community</>} />
             <Route path="/webinar" element={<>webinar</>} />
             <Route path="/research-section" element={<>research-section</>} />
             <Route path="/dashboard" element={<>dashboard</>} />
-            <Route path="/library" element={<Library />} />
           </Routes>
         </div>
       </div>
