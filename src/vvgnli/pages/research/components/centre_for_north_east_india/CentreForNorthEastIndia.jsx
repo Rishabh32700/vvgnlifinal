@@ -58,8 +58,9 @@ const CentreForNorthEastIndia = () => {
               </section>
               <hr />
               <section>
-                <b>Core Research Areas of the Centre</b>
-                <br />
+                <p>
+                  <b>Core Research Areas of the Centre</b>
+                </p>
                 <ul>
                   <li>Employment and Unemployment Trends and Challenges</li>
                   <li>Gender and Labour</li>
@@ -74,16 +75,17 @@ const CentreForNorthEastIndia = () => {
                 </ul>
               </section>
               <section>
-                <b>Core Training Areas of the Centre</b>
-                <br />
-                <>
+                <p>
+                  <b>Core Training Areas of the Centre</b>
+                </p>
+                <p>
                   The target groups of the training programmes are labour
                   officials, women workers and representatives from Central
                   Trade Union Organisations, NGOs/Civil Societies, university
                   students and researchers from the eight states of the region.
                   Some of the themes of the training programmes of the Centre
                   are indicated below:
-                </>
+                </p>
                 <ul>
                   <li>Skill Development & Employment Generation</li>
                   <li>Fundamental of Labour Laws</li>
@@ -109,8 +111,9 @@ const CentreForNorthEastIndia = () => {
                 <hr />
               </section>
               <section>
-                <b>Completed Research Projects</b>
-                <br />
+                <p>
+                  <b>Completed Research Projects</b>
+                </p>
                 <ul>
                   <li>
                     Dynamics of Employment of Children and Socio-Economic
@@ -150,18 +153,20 @@ const CentreForNorthEastIndia = () => {
               </section>
               <hr />
               <section>
-                <b>Special Issue on North East India</b>
-                <br />
-                <>
+                <p>
+                  <b>Special Issue on North East India</b>
+                </p>
+                <p>
                   Special Issue on Labour, Employment & Social Protection in
                   North East India in the institute’s journal Labour &
                   Development (ISSN 0973-0419) Vol. 20, No. 2, December 2013.
-                </>
+                </p>
               </section>
               <hr />
               <section>
-                <b>Workshops and Seminars</b>
-                <br />
+                <p>
+                  <b>Workshops and Seminars</b>
+                </p>
                 <ul>
                   <li>
                     Orientation Workshop on Labour and Employment in North East
@@ -228,12 +233,13 @@ const CentreForNorthEastIndia = () => {
               </section>
               <hr />
               <section>
-                <b>Research Advisory Group</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group</b>
+                </p>
+                <p>
                   The Research Advisory Group of the Centre comprises of the
                   following members:
-                </>
+                </p>
                 <ul>
                   <li>Prof. Mahendra P. Lama</li>
                   <li>Prof. Amitabh Kundu</li>
@@ -243,8 +249,9 @@ const CentreForNorthEastIndia = () => {
               </section>
               <hr />
               <section>
-                <b>Centre Co-ordinator</b>
-                <br />
+                <p>
+                  <b>Centre Co-ordinator</b>
+                </p>
                 <ul>
                   <li>Dr. Otojit Kshetrimayum, Associate Fellow</li>
                 </ul>

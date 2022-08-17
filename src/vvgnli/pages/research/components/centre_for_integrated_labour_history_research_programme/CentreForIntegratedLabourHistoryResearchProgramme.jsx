@@ -75,8 +75,9 @@ const CentreForIntegratedLabourHistoryResearchProgramme = () => {
                 </ul>
               </section>
               <section>
-                <b>International Conferences on Labour History</b>
-                <br />
+                <p>
+                  <b>International Conferences on Labour History</b>
+                </p>
                 <p>
                   One of the most significant contributions of the ILHRP has
                   been the 12 major International Conferences on Labour History
@@ -149,9 +150,10 @@ const CentreForIntegratedLabourHistoryResearchProgramme = () => {
                 <hr />
               </section>
               <section>
-                <b>Centre Co-ordinator</b>
-                <br />
-                <>Dr. Dhanya M.B. Associate Fellow</>
+                <p>
+                  <b>Centre Co-ordinator</b>
+                </p>
+                <p>Dr. Dhanya M.B. Associate Fellow</p>
               </section>
             </div>
           </div>

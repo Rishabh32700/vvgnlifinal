@@ -33,7 +33,9 @@ const CentreForClimateChangeAndLabour = () => {
                 <hr />
               </section>
               <section>
-                <b>Core Research Areas</b>
+                <p>
+                  <b>Core Research Areas</b>
+                </p>
 
                 <ul>
                   <li>
@@ -58,8 +60,9 @@ const CentreForClimateChangeAndLabour = () => {
                 <hr />
               </section>
               <section>
-                <b>Specific Researchable Issues include:</b>
-                <br />
+                <p>
+                  <b>Specific Researchable Issues include:</b>
+                </p>
                 <ul>
                   <li>
                     Effect of climate change on the livelihoods of vulnerable
@@ -100,7 +103,9 @@ const CentreForClimateChangeAndLabour = () => {
                 </ul>
               </section>
               <section>
-                <b>Centre Co-Ordinator</b>
+                <p>
+                  <b>Centre Co-Ordinator</b>
+                </p>
 
                 <ul>
                   <li>Dr. Anoop Satpathy, Fellow</li>

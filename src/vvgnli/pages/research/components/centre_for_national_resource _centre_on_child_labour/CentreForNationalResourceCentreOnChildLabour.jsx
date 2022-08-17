@@ -110,13 +110,14 @@ const CentreForNationalResourceCentreOnChildLabour = () => {
               </section>
               <hr />
               <section>
-                <b>Research Advisory Group Members</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group Members</b>
+                </p>
+                <p>
                   The Centre is having the following distinguished persons as
                   its RAG members for seeking guidance, orientation and
                   direction for carrying out its various activities:
-                </>
+                </p>
                 <ul>
                   <li>Ms. Amarjeet Kaur</li>
                   <li>Prof. S. C. Srivastava</li>
@@ -126,15 +127,17 @@ const CentreForNationalResourceCentreOnChildLabour = () => {
               </section>
               <hr />
               <section>
-                <b>Centre Coordinator</b>
-                <br />
-                <>Dr. Helen R. Sekar, Senior Fellow</>
+                <p>
+                  <b>Centre Coordinator</b>
+                </p>
+                <p>Dr. Helen R. Sekar, Senior Fellow</p>
               </section>
               <hr />
               <section>
-                <b>Associate Coordinator</b>
-                <br />
-                <>Shri P. Amitav Khuntia, Associate Fellow</>
+                <p>
+                  <b>Associate Coordinator</b>
+                </p>
+                <p>Shri P. Amitav Khuntia, Associate Fellow</p>
               </section>
             </div>
           </div>

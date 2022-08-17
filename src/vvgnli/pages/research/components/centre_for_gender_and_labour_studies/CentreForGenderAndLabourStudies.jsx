@@ -70,12 +70,13 @@ const CentreForGenderAndLabourStudies = () => {
                 <hr />
               </section>
               <section>
-                <b>Research Advisory Group</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group</b>
+                </p>
+                <p>
                   The Research Advisory Group of the Centre comprises of the
                   following members:
-                </>
+                </p>
                 <ul>
                   <li>
                     Prof. Ratna M. Sudarshan
@@ -144,7 +145,9 @@ const CentreForGenderAndLabourStudies = () => {
                 <hr />
               </section>
               <section>
-                <b>Centre Co-Ordinator</b>
+                <p>
+                  <b>Centre Co-Ordinator</b>
+                </p>
 
                 <ul>
                   <li>

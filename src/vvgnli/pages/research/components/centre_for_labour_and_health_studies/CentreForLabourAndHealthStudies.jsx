@@ -16,7 +16,9 @@ const CentreForLabourAndHealthStudies = () => {
               <section className="about__us">
                 <h1>Centre for Labour and Health Studies</h1>
                 <hr className="line" />
-                <b>Aims and Objectives</b>
+                <p>
+                  <b>Aims and Objectives</b>
+                </p>
                 <p>
                   Globalisation has led to increasing informalisation of work in
                   the developing countries, whereby workers have less access to
@@ -46,7 +48,9 @@ const CentreForLabourAndHealthStudies = () => {
                 <hr />
               </section>
               <section>
-                <b>Core Research Areas of the Centre</b>
+                <p>
+                  <b>Core Research Areas of the Centre</b>
+                </p>
                 <ul>
                   <li>
                     New forms of employment and emerging health risks and
@@ -68,12 +72,13 @@ const CentreForLabourAndHealthStudies = () => {
                 <hr />
               </section>
               <section>
-                <b>Research Advisory Group</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group</b>
+                </p>
+                <p>
                   The Research Advisory Group of the Centre comprises of the
                   following members:
-                </>
+                </p>
                 <ul>
                   <li>
                     Prof Prof. Ritu Priya Mehrotra, Centre of Social Medicine
@@ -96,7 +101,9 @@ const CentreForLabourAndHealthStudies = () => {
               </section>
               <section>
                 <hr />
-                <b>Major Research Projects completed/initiated recently</b>
+                <p>
+                  <b>Major Research Projects completed/initiated recently</b>
+                </p>
 
                 <ul>
                   <li>
@@ -123,8 +130,9 @@ const CentreForLabourAndHealthStudies = () => {
                 <hr />
               </section>
               <section>
-                <b>Centre Coordinator</b>
-                <br />
+                <p>
+                  <b>Centre Coordinator</b>
+                </p>
                 <ul>
                   <li>Dr. Ruma Ghosh, Fellow</li>
                 </ul>

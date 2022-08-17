@@ -83,12 +83,11 @@ const CentreForInternationalNetworking = () => {
                 </p>
               </section>
               <section>
-                <div>
+                <p>
                   <b>For any further information, please contact:</b>
-                  <br></br>
-                  <>Director General, VVGNLI</>
-                  {/* <link to="dg.vvgnli@gov.in">dg.vvgnli@gov.in</link> */}
-                </div>
+                </p>
+                <p>Director General, VVGNLI</p>
+                <a href="dg.vvgnli@gov.in">dg.vvgnli@gov.in</a>
               </section>
             </div>
           </div>

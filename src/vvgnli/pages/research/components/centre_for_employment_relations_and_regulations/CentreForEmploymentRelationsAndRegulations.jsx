@@ -16,23 +16,25 @@ const CentreForEmploymentRelationsAndRegulations = () => {
               <section className="about__us">
                 <h1>Centre for Employment Relations and Regulations</h1>
                 <hr className="line" />
-                <b>Aim</b>
-                <br />
-                <>
+                <p>
+                  <b>Aim</b>
+                </p>
+                <p>
                   Develop understanding of the changing employment relations in
                   order to help in the formulation of appropriate legal
                   regulation framework and evolving appropriate social
                   protection measures.
-                </>
+                </p>
                 <hr />
               </section>
               <section>
-                <b>Core Areas</b>
-                <br />
-                <>
+                <p>
+                  <b>Core Areas</b>
+                </p>
+                <p>
                   The research activities of the centre focus on the following
                   core areas:
-                </>
+                </p>
                 <ul>
                   <li>
                     Trade unions and their role in the emerging socio-economic
@@ -58,12 +60,13 @@ const CentreForEmploymentRelationsAndRegulations = () => {
                 <hr />
               </section>
               <section>
-                <b>Recently Completed Research Projects</b>
-                <br />
-                <>
+                <p>
+                  <b>Recently Completed Research Projects</b>
+                </p>
+                <p>
                   Some of the important research projects initiated and
                   completed by the centre in the recent past include:
-                </>
+                </p>
                 <ul>
                   <li>
                     Conditions of Employment, Work and Service of Faculty in
@@ -96,20 +99,21 @@ const CentreForEmploymentRelationsAndRegulations = () => {
                     A Case Study of Garment and Hosiery Industry.
                   </li>
                 </ul>
-                <>
+                <p>
                   Most of the above mentioned research studies have been
                   published in the form of NLI Research Studies Series.
-                </>
+                </p>
                 <hr />
               </section>
               <section>
-                <b>Research Advisory Group Members</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group Members</b>
+                </p>
+                <p>
                   The Centre is having the following distinguished persons as
                   its RAG members for seeking guidance, orientation and
                   direction for carrying out its various activities:
-                </>
+                </p>
                 <ul>
                   <li>Prof. Mahavir Singh</li>
                   <li>Dr. Rajan K. E. Varghese</li>
@@ -120,20 +124,20 @@ const CentreForEmploymentRelationsAndRegulations = () => {
                 <hr />
               </section>
               <section>
-                <b>Research Advisory Group Members</b>
-                <br />
+                <p>
+                  <b>Research Advisory Group Members</b>
+                </p>
                 <ul>
                   <li>Dr. Sanjay Upadhyaya, Fellow Associate Co-ordinator</li>
                   <li>Dr. Manoj Jatav, Associate, Fellow</li>
                 </ul>
               </section>
               <section>
-                <div>
+                <p>
                   <b>For any further information, please contact:</b>
-                  <br></br>
-                  <>Director General, VVGNLI</>
-                  {/* <link to="dg.vvgnli@gov.in">dg.vvgnli@gov.in</link> */}
-                </div>
+                </p>
+                <p>Director General, VVGNLI</p>
+                <a href="dg.vvgnli@gov.in">dg.vvgnli@gov.in</a>
               </section>
             </div>
           </div>

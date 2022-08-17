@@ -33,22 +33,16 @@ const CentreForLabourMarketStudies = () => {
                   <li>Skill Development</li>
                   <li>Informal Sector and Decent Work</li>
                 </ul>
-                {/* <p>
-                  Research activities also explore the basic needs of different
-                  groups of trainees such as trade union leaders and organisers
-                  in both organised and unorganised sectors, managers of public
-                  and private sectors, labour administrators, and volunteers of
-                  non-governmental organisations. The following ten Centres
-                  carry out studies on the major themes related to research:
-                </p> */}
-                <hr></hr>
+                <hr />
               </section>
 
               <section className="aims__and__objectives">
-                <b>
-                  Major Research Projects completed/initiated during the last
-                  ten years include:
-                </b>
+                <p>
+                  <b>
+                    Major Research Projects completed/initiated during the last
+                    ten years include:
+                  </b>
+                </p>
                 <ul>
                   <li>
                     Skill Profiling and Skill Certification in the context of
@@ -165,15 +159,17 @@ const CentreForLabourMarketStudies = () => {
                   </li>
                 </ul>
               </section>
-              <hr></hr>
+              <hr />
               {/* <FooterVvgnli /> */}
               <section>
-                <b>Research Advisory Group</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group</b>
+                </p>
+
+                <p>
                   The Research Advisory Group of the Centre comprises of the
                   following Members:
-                </>
+                </p>
                 <ul>
                   <li>
                     The Research Advisory Group of the Centre comprises of the
@@ -193,8 +189,10 @@ const CentreForLabourMarketStudies = () => {
               </section>
               <hr />
               <section>
-                <b>Centre Coordinator's</b>
-                <br />
+                <p>
+                  <b>Centre Coordinator's</b>
+                </p>
+
                 <ul>
                   <li>Dr. Anoop Kumar Satpathy, Fellow</li>
                   <li>Dr. Dhanya M. B., Associate Fellow</li>

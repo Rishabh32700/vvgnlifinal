@@ -18,7 +18,9 @@ const CentreForAgrarianRelationsRuralAndBehaviouralStudies = () => {
                   Centre for Agrarian Relations, Rural and Behavioural Studies
                 </h1>
                 <hr className="line" />
-                <b>Aim & Activities</b>
+                <p>
+                  <b>Aim & Activities</b>
+                </p>
                 <p>
                   Worldwide Labor markets play a key role in shaping employment
                   and income levels in rural areas. Despite the fact that
@@ -62,8 +64,10 @@ const CentreForAgrarianRelationsRuralAndBehaviouralStudies = () => {
                 </p>
               </section>
               <section>
-                <b>Major Research Projects completed/initiated recently</b>
-                <br />
+                <p>
+                  <b>Major Research Projects completed/initiated recently</b>
+                </p>
+
                 <ul>
                   <li>
                     Agrarian Reforms and its Impact on Agricultural Development
@@ -139,12 +143,14 @@ const CentreForAgrarianRelationsRuralAndBehaviouralStudies = () => {
                 </ul>
               </section>
               <section>
-                <b>Core Research Areas</b>
-                <br />
-                <>
+                <p>
+                  <b>Core Research Areas</b>
+                </p>
+
+                <p>
                   The research activities of the Centre focus on the following
                   core areas:
-                </>
+                </p>
                 <ul>
                   <li>Wage determinater in rural labour market</li>
                   <li>Globalisation and its impact on rural labour</li>
@@ -160,11 +166,11 @@ const CentreForAgrarianRelationsRuralAndBehaviouralStudies = () => {
                   <li>Migration of rural labour</li>
                   <li>Study of different agrarian occupations</li>
                 </ul>
-                <>
+                <p>
                   In addition to the above, several specific themes have also
                   been identified for research, seminars and workshops which are
                   as follows:
-                </>
+                </p>
                 <ul>
                   <li>Changes in land holding and land use pattern</li>
                   <li>
@@ -212,13 +218,14 @@ const CentreForAgrarianRelationsRuralAndBehaviouralStudies = () => {
                 </ul>
               </section>
               <section>
-                <b>Research Advisory Group</b>
-                <br />
-                <>
+                <p>
+                  <b>Research Advisory Group</b>
+                </p>
+                <p>
                   The Centre is having the following distinguished persons as
                   its RAG members for seeking guidance, orientation and
                   direction for carrying out its various activities:
-                </>
+                </p>
                 <ul>
                   <li>
                     Mr. K.B. Saxena, Professor, Council for Social Development
@@ -240,36 +247,27 @@ const CentreForAgrarianRelationsRuralAndBehaviouralStudies = () => {
                 </ul>
               </section>
               <section>
-                <b>Centre Coordinator</b>
-                <br />
-                <b>Dr. Shashi Bala</b>
-                <br />
-                <>Fellow</>
-                <br />
-                <>Ph.: 0120-2411533/34 Extn.225</>
-                <br />
-                {/* <link to="balashashi.vvgnli@gov.in">balashashi.vvgnli@gov.in</link> */}
-                <br />
+                <p>
+                  <b>Centre Coordinator</b>
+                </p>
+                <p>Dr. Shashi Bala</p>
+                <p>Fellow</p>
+                <p>Ph.: 0120-2411533/34 Extn.225</p>
+                <a href="balashashi.vvgnli@gov.in">balashashi.vvgnli@gov.in</a>
               </section>
               <section>
-                <b>Associate Coordinators</b>
-                <br />
-                <b>Mr. P. Amitav Khuntia</b>
-                <br />
-                <>Associate Fellow</>
-                <br />
-                <>Ph.: 0120-2411533/34/35 Extn.251</>
-                <br />
-                {/* <link to="p.amitav.vvgnli@gov.in">p.amitav.vvgnli@gov.in</link> */}
+                <p>
+                  <b>Associate Coordinators</b>
+                </p>
+                <p>Mr. P. Amitav Khuntia</p>
+                <p>Associate Fellow</p>
+                <p>Ph.: 0120-2411533/34/35 Extn.251</p>
+                <a href="p.amitav.vvgnli@gov.in">p.amitav.vvgnli@gov.in</a>
 
-                <br />
-                <b>Dr. Ramya Ranjan Patel</b>
-                <br />
-                <>Associate Fellow</>
-                <br />
-                <>Ph.: 0120-2411533/34/35 Extn.323</>
-                <br />
-                {/* <link to="rrpatel.vvgnli@gov.in">rrpatel.vvgnli@gov.in</link> */}
+                <p>Dr. Ramya Ranjan Patel</p>
+                <p>Associate Fellow</p>
+                <p>Ph.: 0120-2411533/34/35 Extn.323</p>
+                <a href="rrpatel.vvgnli@gov.in">rrpatel.vvgnli@gov.in</a>
               </section>
             </div>
           </div>
