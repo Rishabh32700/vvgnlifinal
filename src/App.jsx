@@ -35,6 +35,19 @@ import CentreForGenderAndLabourStudies from "./vvgnli/pages/research/components/
 import CentreForNorthEastIndia from "./vvgnli/pages/research/components/centre_for_north_east_india/CentreForNorthEastIndia";
 import CentreForClimateChangeAndLabour from "./vvgnli/pages/research/components/centre_for_climate_change_and_labour/CentreForClimateChangeAndLabour";
 import Library from "./vvgnli/pages/library/Library";
+import Training from "./vvgnli/pages/training/Training";
+import Current__Training__Programmes from "./vvgnli/pages/training/components/Current__training__programmes/Current__Training__Programmes";
+import Domestic__Training__Programmes from "./vvgnli/pages/training/components/Domestic-Training-Programmes/Domestic__Training__Programmes";
+import International__Training__Programmes from "./vvgnli/pages/training/components/International-Training-Programmes/International__Training__Programmes";
+import ITEC__Sanction__FY__2022__23 from "./vvgnli/pages/training/components/ITEC-Sanction-FY-2022-23/ITEC__Sanction__FY__2022__23";
+import Training__Calendar__2022__2023__English from "./vvgnli/pages/training/components/Training-Calendar-2022-2023-English/Training__Calendar__2022__2023__English";
+import Training__Calendar__2022__2023__Hindi from "./vvgnli/pages/training/components/Training-Calendar-2022-2023-Hindi/Training__Calendar__2022__2023__Hindi";
+
+import People from "./vvgnli/pages/people/People";
+
+import DirectorGeneral from "./vvgnli/pages/people/components/director__general/DirectorGeneral";
+
+import SeniorFellow from "./vvgnli/pages/people/components/senior__fellow/SeniorFellow";
 
 const App = () => {
   return (
@@ -124,7 +137,42 @@ const App = () => {
               element={<CentreForClimateChangeAndLabour />}
             />
 
+            <Route path="vvgnli/training" element={<Training />} />
+            <Route
+              path="/vvgnli/training/ITEC-Sanction-FY-2022-23"
+              element={<ITEC__Sanction__FY__2022__23 />}
+            />
+            <Route
+              path="/vvgnli/training/Domestic-Training-Programmes"
+              element={<Domestic__Training__Programmes />}
+            />
+            <Route
+              path="/vvgnli/training/International-Training-Programmes"
+              element={<International__Training__Programmes />}
+            />
+            <Route
+              path="/vvgnli/training/Training-Calendar-2022-2023-Hindi"
+              element={<Training__Calendar__2022__2023__Hindi />}
+            />
+            <Route
+              path="/vvgnli/training/Training-Calendar-2022-2023-English"
+              element={<Training__Calendar__2022__2023__English />}
+            />
+            <Route
+              path="/vvgnli/training/Current-Training-Programmes"
+              element={<Current__Training__Programmes />}
+            />
+
             <Route path="vvgnli/library" element={<Library />} />
+            <Route path="vvgnli/people" element={<People />} />
+            <Route
+              path="vvgnli/people/director-general"
+              element={<DirectorGeneral />}
+            />
+            <Route
+              path="vvgnli/people/senior-fellow"
+              element={<SeniorFellow />}
+            />
 
             <Route path="/vvgnli/e-resource" element={<EResource />} />
 
